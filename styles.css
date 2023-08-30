@@ -111,7 +111,7 @@ justify-content: center;
 .main-slider{
     display:flex;
     background-color: rgba(15, 32, 65,1);
-  overflow: scroll;
+  overflow: hidden;
   width: 60%;
   white-space: nowrap;
   padding: 0px 10px;
@@ -142,6 +142,7 @@ justify-content: center;
 
   .left-slide-but{
     margin-right: -50px;
+    visibility: hidden;
     
   }
   .right-slide-but{
